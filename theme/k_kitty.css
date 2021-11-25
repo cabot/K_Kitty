@@ -171,10 +171,8 @@ input.button1:focus, input.button2:focus, input.button3:focus {
     background: #f7b9cf;
 }
 
-@media (min-width: 701px) {
-    .tabs .tab > a:hover {
-        background-image: url("./images/hoverlirow.gif");
-    }
+.tabs .tab > a:hover {
+    background-image: url("./images/hoverlirow.gif");
 }
 
 .tabs .activetab > a, .tabs .activetab > a:hover {
