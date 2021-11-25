@@ -88,10 +88,9 @@ li.row {
     border-bottom-color: #ad194f;
 }
 
-@media (min-width: 701px) {
-    li.row:hover {
-        background-image: url("./images/hoverlirow.gif");
-    }
+
+li.row:hover {
+    background-image: url("./images/hoverlirow.gif");
 }
 
 li.row strong {
