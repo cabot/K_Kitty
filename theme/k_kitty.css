@@ -5,6 +5,11 @@ html, body {
 
 body {
     padding-top: 0;
+	cursor: url("./images/curseur.cur"), default;
+}
+
+a {
+	cursor: url("./images/curseur-liens.cur"), default;
 }
 
 .wrap {
@@ -167,14 +172,11 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 }
 
 .tabs .tab > a:hover {
-    background: #f7b9cf;
+    background: #f7b9cf url("./images/hoverlirow.gif");
 }
 
-.tabs .tab > a:hover {
-    background-image: url("./images/hoverlirow.gif");
-}
-
-.tabs .activetab > a, .tabs .activetab > a:hover {
+.tabs .activetab > a,
+.tabs .activetab > a:hover {
     color: #333333;
     border-color: #f4bfd2;
     background-image: linear-gradient(to bottom, #fae4ec 0%,#f4bfd2 100%);
